@@ -1,5 +1,5 @@
-b1=int(input())
-b2=int(input())
+a=int(input())
+b=int(input())
 h=int(input())
-a=(h*(b1+b2))/2
-print('{:.4f}'.format(a))
+a=(h*(a+b))/2
+print("{:.4f}".format(a))
